@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_explore_apps"
+        android:title="@string/action_explore_apps"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_explore_contacts"
+        android:title="@string/action_explore_contacts"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_explore_Media"
+        android:title="@string/action_explore_media"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_explore_files"
+        android:title="@string/action_explore_files"
+        app:showAsAction="never" />
+
+</menu>

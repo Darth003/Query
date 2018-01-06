@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/mnav_search_group">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/mnav_home_item"
+                    android:icon="@drawable/ic_home_black_24dp"
+                    android:title="@string/mnav_home_item" />
+                <item
+                    android:id="@+id/mnav_explore_item"
+                    android:icon="@drawable/ic_explore_black_24dp"
+                    android:title="@string/mnav_explore_item" />
+
+                <item
+                    android:id="@+id/mnav_profiles_item"
+                    android:icon="@drawable/ic_assignment_black_24dp"
+                    android:title="@string/mnav_profiles_item" />
+
+
+                <item
+                    android:id="@+id/mnav_sources_item"
+                    android:icon="@drawable/ic_cloud_black_24dp"
+                    android:title="@string/mnav_sources_item" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/mnav_more_group">
+        <menu>
+            <item
+                android:id="@+id/mnav_archive_item"
+                android:icon="@drawable/ic_archive_black_24dp"
+                android:title="@string/mnav_archive_item" />
+            <item
+                android:id="@+id/mnav_history_item"
+                android:icon="@drawable/ic_history_black_24dp"
+                android:title="@string/mnav_history_item" />
+
+            <item
+                android:id="@+id/mnav_settings_item"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="@string/mnav_settings_item" />
+        </menu>
+    </item>
+
+    <item android:title="@string/mnav_info_group">
+        <menu>
+            <item
+                android:id="@+id/mnav_about_item"
+                android:icon="@drawable/ic_info_black_24dp"
+                android:title="@string/mnav_about_item" />
+
+            <item
+                android:id="@+id/mnav_help_feedback_item"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="@string/mnav_help_feedback_item" />
+        </menu>
+    </item>
+
+</menu>
