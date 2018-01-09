@@ -131,5 +131,6 @@
     <string name="main_search_bar_text_hint">Search all sources</string>
     <string name="mnav_profiles_item">Profiles</string>
     <string name="empty_text" />
+    <string name="speech_input_prompt">Speak your query</string>
 
 </resources>
