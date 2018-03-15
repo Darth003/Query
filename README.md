@@ -1,2 +1,2 @@
-# -Query
-Search app whose sources are the device and the user's external accounts.
+# Query
+Locate data from your device, accounts and networks.
