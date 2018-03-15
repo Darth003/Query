@@ -19,6 +19,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
+        <meta-data
+            android:name="com.samsung.android.sdk.multiwindow.enable"
+            android:value="true" />
+        <meta-data
+            android:name="android.intent.category.MULTIWINDOW_LAUNCHER"
+            android:value="true" />
+        <meta-data
+            android:name="com.sec.android.intent.category.MULTIWINDOW_LAUNCHER"
+            android:value="true" />
+
+    </application>
 </manifest>

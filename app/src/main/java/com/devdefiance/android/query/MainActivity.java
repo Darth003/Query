@@ -23,7 +23,7 @@ import com.devdefiance.android.query.utils.BasicUtils;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    private int NAV_POSITION;
+    private static int NAV_POSITION;
     private String LOG_TAG = "com.devdefiance.android.query.MainActivity";
 
     @Override

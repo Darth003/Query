@@ -132,5 +132,9 @@
     <string name="mnav_profiles_item">Profiles</string>
     <string name="empty_text" />
     <string name="speech_input_prompt">Speak your query</string>
+    <string name="frag_scs_topcard_content">Turn on the sources that should be searched</string>
+    <string name="frag_scs_switch_all">Switch All</string>
+    <string name="frag_scs_savecard_content">Save as a new profile</string>
+    <string name="frag_scs_menu_save_profile">Save Profile</string>
 
 </resources>
