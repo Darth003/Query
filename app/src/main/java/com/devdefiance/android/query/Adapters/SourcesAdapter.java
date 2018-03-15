@@ -13,6 +13,8 @@ import android.widget.TextView;
 import com.devdefiance.android.query.Objects.SourceModel;
 import com.devdefiance.android.query.R;
 
+import java.util.ArrayList;
+
 /**
  * Created by darth on 3/15/18.
  */
@@ -20,9 +22,9 @@ import com.devdefiance.android.query.R;
 public class SourcesAdapter extends RecyclerView.Adapter<SourcesAdapter.ViewHolder> {
 
     // Object Array to hold all models;
-    public SourceModel[] models;
+    public ArrayList<SourceModel> models;
 
-    public SourcesAdapter(Context context, SourceModel[] models) {
+    public SourcesAdapter(Context context, ArrayList<SourceModel> models) {
         this.models = models;
     }
 
@@ -30,7 +32,7 @@ public class SourcesAdapter extends RecyclerView.Adapter<SourcesAdapter.ViewHold
     public void onBindViewHolder(final SourcesAdapter.ViewHolder holder, int position) {
 
         // Get the model by position
-        SourceModel model = models[position];
+        SourceModel model = models.get(position);
 
         // Push the model values to the views
         holder.sourceName.setText(model.getSourceName());
@@ -55,7 +57,7 @@ public class SourcesAdapter extends RecyclerView.Adapter<SourcesAdapter.ViewHold
 
     @Override
     public int getItemCount() {
-        return models.length;
+        return models.size();
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {

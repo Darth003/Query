@@ -1,5 +1,7 @@
 package com.devdefiance.android.query.utils;
 
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
 import android.content.Context;
 import android.os.Build;
 import android.support.v4.app.FragmentActivity;
@@ -30,5 +32,18 @@ public class BasicUtils {
         } catch (NullPointerException npe) {
             return false;
         }
+    }
+
+    public static void dismissView(final View toDismiss, int duration) {
+        toDismiss
+                .animate().x(-toDismiss.getMeasuredWidth())
+                .setDuration(300)
+                .setListener(new AnimatorListenerAdapter() {
+                    @Override
+                    public void onAnimationEnd(Animator animation) {
+                        super.onAnimationEnd(animation);
+                        toDismiss.setVisibility(View.GONE);
+                    }
+                }).start();
     }
 }

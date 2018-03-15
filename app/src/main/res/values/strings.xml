@@ -136,5 +136,7 @@
     <string name="frag_scs_switch_all">Switch All</string>
     <string name="frag_scs_savecard_content">Save as a new profile</string>
     <string name="frag_scs_menu_save_profile">Save Profile</string>
+    <string name="frag_scs_text_dismiss">DISMISS</string>
+    <string name="frag_scs_topcard2_content">Long press and drag the cards to reorder how the results are displayed</string>
 
 </resources>
